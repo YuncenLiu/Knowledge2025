@@ -30,4 +30,5 @@ tree /Users/xiang/Library/CloudStorage/OneDrive-个人/Knowledge -fi | grep ".md
 
 ### 2025年2月
 
-+ 2月22日，重构[个人知识库](obsidian://open?vault=Knowledge2025&file=01-%E4%B8%AA%E4%BA%BA%2F01-%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%2F2025%E5%B9%B402%E6%9C%88)
++ 2月22日，重构个人知识库，完成 02-计算机基础原理、03-Java核心
++ 3月11日，完成重构，(464)
