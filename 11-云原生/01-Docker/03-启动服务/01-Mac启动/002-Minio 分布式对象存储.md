@@ -12,6 +12,7 @@
 ## docker 部署运行
 
 官网：[https://docs.min.io/](https://docs.min.io/)
+个人镜像：`registry.cn-beijing.aliyuncs.com/yuncenliu/minio:2025-03-12`
 
 执行脚本：
 
