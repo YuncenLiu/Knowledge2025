@@ -39,7 +39,7 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 编译安装
 
 ```sh
-./configure --prefix=/usr/local/Python-3.8.2
+./configure --prefix=/usr/local/Python-3.6.5
 # /usr/local/Python-Python-3.8.2    这个路径是Python 即将安装的位置
 make
 make install
@@ -54,8 +54,8 @@ rm -rf /usr/bin/python
 建立新的软连接
 
 ```sh
-ln -s /usr/local/Python-3.8.2/bin/python3.8 /usr/bin/python3
-ln -s /usr/local/Python-3.8.2/bin/pip3 /usr/bin/pip
+ln -s /usr/local/Python-3.6.5/bin/python3.6 /usr/bin/python3
+ln -s /usr/local/Python-3.6.5/bin/pip3 /usr/bin/pip3
 ```
 
 

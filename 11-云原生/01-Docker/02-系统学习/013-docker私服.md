@@ -37,13 +37,14 @@ Get "https://192.168.58.175:5000/v2/": http: server gave HTTP response to HTTPS 
 docker 官方不支持 http 推送，更改 daemon.json 文件
 
 ```json
+mkdir -p /etc/docker/
 vim /etc/docker/daemon.json
 
 
 {
-  "insecure-registries":[
-    "192.168.58.175:5000"
-  ]
+	"exec-opts":["native.cgroupdriver=systemd"],
+	"insecure-registries": ["10.5.3.176:8081"],
+	"data-root": "/data/docker/data/docker"
 }
 
 systemctl daemon-reload

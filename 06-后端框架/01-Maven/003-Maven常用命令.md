@@ -35,8 +35,7 @@ mvn install:install-file
 ```
 
 
-
-
+注意，使用 Windows 时，请勿使用 PowerShell，直接使用 cmd 即可
 
 
 

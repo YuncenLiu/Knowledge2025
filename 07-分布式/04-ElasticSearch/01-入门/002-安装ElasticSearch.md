@@ -85,7 +85,7 @@ cluster.initial_master_nodes: ["node-1"]
 编辑 /etc/sysctl.conf 不加的话，启动会报错
 
 ```
-vm.max_map_count=655360
+vm.max_map_count=262144
 ```
 
 让其生效

@@ -1,5 +1,7 @@
-> 创建于 2021年12月24日
-> 	   作者：想想
+---
+createTime: 2021-12-24
+---
+
 
 [toc]
 
@@ -141,3 +143,47 @@ docker run \
 	--address "liuyuncen.com:9000"
 ```
 
+
+
+## mc 客户端使用
+
+Mac 端下载
+```sh
+https://dl.minio.org.cn/client/mc/release/darwin-amd64/mc
+```
+
+Mac 环境使用
+
+注册一个可用的 Minio
+```sh
+./mc alias set dapi_uat http://cloud-minio-data-10-5-3-176:8082  xQfGhPRPG0bJ9YW4HiB6 22BzgLhqfGjWAxIZfsOOfCmexNRVGRn8JiYXRhVR
+```
+
+
+查看这个对象存储状态
+```sh
+./mc admin info dapi_uat
+```
+![](images/Pasted%20image%2020250407093047.png)
+
+查看目录
+```sh
+./mc ls dapi_uat/
+```
+
+以目录形式显示
+```sh
+./mc tree dapi_uat
+```
+![](images/Pasted%20image%2020250407093223.png)
+
+下载 mc get minio对象 本地对象
+```sh
+./mc ls dapi_uat/exchange-module/upload/20250403/2387235f59c377e75f936262363f3440.zip /Users/xiang/Downloads/
+```
+
+
+上传 mc cp -r 本地对象 minio对象 (-r 支持文件夹上传)
+```sh
+./mc cp /Users/xiang/Downloads/Flink-1.17/flink-1.17.0-bin-scala_2.12.tgz dapi_uat/exchange-module/upload/互联网高薪必读书单/
+```
