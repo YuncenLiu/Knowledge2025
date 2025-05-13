@@ -9,7 +9,7 @@
 ```sh
 (Get-ChildItem -Path "C:\Users\xiang\OneDrive\Knowledge" -Recurse -Filter "*.md" -File).Count
 
-tree /Users/xiang/Library/CloudStorage/OneDrive-个人/Knowledge -fi | grep ".md$" | wc -l
+tree /Users/xiang/Library/CloudStorage/OneDrive-个人/Knowledge2025 -fi | grep ".md$" | wc -l
 ```
 
 ### 2024年12月
@@ -32,4 +32,5 @@ tree /Users/xiang/Library/CloudStorage/OneDrive-个人/Knowledge -fi | grep ".md
 
 + 2月22日，重构个人知识库，完成 02-计算机基础原理、03-Java核心
 + 3月11日，完成重构，(464)
++ 5月31日，集成umami实现流量监控（501）
 ![](images/GIt分析%201.excalidraw)
