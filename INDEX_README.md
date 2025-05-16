@@ -173,35 +173,35 @@
 
 #### 01-搭建MySQL
 
-- [001-Linux安装MySQL8.0](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/01-%E6%90%AD%E5%BB%BAMySQL/001-Linux%E5%AE%89%E8%A3%85MySQL8.0.md)
-- [002-主从复制搭建](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/01-%E6%90%AD%E5%BB%BAMySQL/002-%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E6%90%AD%E5%BB%BA.md)
-- [003-双主复制搭建](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/01-%E6%90%AD%E5%BB%BAMySQL/003-%E5%8F%8C%E4%B8%BB%E5%A4%8D%E5%88%B6%E6%90%AD%E5%BB%BA.md)
-- [004-MHA高可用MySQL集群](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/01-%E6%90%AD%E5%BB%BAMySQL/004-MHA%E9%AB%98%E5%8F%AF%E7%94%A8MySQL%E9%9B%86%E7%BE%A4.md)
+- [001-Linux安装MySQL8.0](04-数据库/01-MySQL/01-搭建MySQL/001-Linux安装MySQL8.0.md)
+- [002-主从复制搭建](04-数据库/01-MySQL/01-搭建MySQL/002-主从复制搭建.md)
+- [003-双主复制搭建](04-数据库/01-MySQL/01-搭建MySQL/003-双主复制搭建.md)
+- [004-MHA高可用MySQL集群](04-数据库/01-MySQL/01-搭建MySQL/004-MHA高可用MySQL集群.md)
 
 #### 02-MySQL查询场景
 
-- [001-删除重复数据](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/02-MySQL%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/001-%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E6%95%B0%E6%8D%AE.md)
-- [002-JSON查询](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/02-MySQL%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/002-JSON%E6%9F%A5%E8%AF%A2.md)
-- [003-通用操作](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/02-MySQL%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/003-%E9%80%9A%E7%94%A8%E6%93%8D%E4%BD%9C.md)
-- [004-数据备份与恢复](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/02-MySQL%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/004-%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD%E4%B8%8E%E6%81%A2%E5%A4%8D.md)
+- [001-删除重复数据](04-数据库/01-MySQL/02-MySQL查询场景/001-删除重复数据.md)
+- [002-JSON查询](04-数据库/01-MySQL/02-MySQL查询场景/002-JSON查询.md)
+- [003-通用操作](04-数据库/01-MySQL/02-MySQL查询场景/003-通用操作.md)
+- [004-数据备份与恢复](04-数据库/01-MySQL/02-MySQL查询场景/004-数据备份与恢复.md)
 
 #### 03-系统学习
 
-- [001-MySQL架构体系](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/001-MySQL%E6%9E%B6%E6%9E%84%E4%BD%93%E7%B3%BB.md)
-- [002-MySQL事务隔离级别复现](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/002-MySQL%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E5%A4%8D%E7%8E%B0.md)
-- [003-MySQL索引篇](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/003-MySQL%E7%B4%A2%E5%BC%95%E7%AF%87.md)
-- [004-MySQL锁机制](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/004-MySQL%E9%94%81%E6%9C%BA%E5%88%B6.md)
-- [005-三级封锁协议](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/005-%E4%B8%89%E7%BA%A7%E5%B0%81%E9%94%81%E5%8D%8F%E8%AE%AE.md)
-- [006-MySQL JDBC对应支持版本](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/03-%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0/006-MySQL%20JDBC%E5%AF%B9%E5%BA%94%E6%94%AF%E6%8C%81%E7%89%88%E6%9C%AC.md)
+- [001-MySQL架构体系](04-数据库/01-MySQL/03-系统学习/001-MySQL架构体系.md)
+- [002-MySQL事务隔离级别复现](04-数据库/01-MySQL/03-系统学习/002-MySQL事务隔离级别复现.md)
+- [003-MySQL索引篇](04-数据库/01-MySQL/03-系统学习/003-MySQL索引篇.md)
+- [004-MySQL锁机制](04-数据库/01-MySQL/03-系统学习/004-MySQL锁机制.md)
+- [005-三级封锁协议](04-数据库/01-MySQL/03-系统学习/005-三级封锁协议.md)
+- [006-MySQL JDBC对应支持版本](04-数据库/01-MySQL/03-系统学习/006-MySQL%20JDBC对应支持版本.md)
 
 #### 04-相关应用
 
-- [001-mycat](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/04-%E7%9B%B8%E5%85%B3%E5%BA%94%E7%94%A8/001-mycat.md)
+- [001-mycat](04-数据库/01-MySQL/04-相关应用/001-mycat.md)
 
 #### 05-ERR 错误
 
-- [001-ERROR 2002](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/05-ERR%20%E9%94%99%E8%AF%AF/001-ERROR%202002.md)
-- [002-ERROR 1290](04-%E6%95%B0%E6%8D%AE%E5%BA%93/01-MySQL/05-ERR%20%E9%94%99%E8%AF%AF/002-ERROR%201290.md)
+- [001-ERROR 2002](04-数据库/01-MySQL/05-ERR%20错误/001-ERROR%202002.md)
+- [002-ERROR 1290](04-数据库/01-MySQL/05-ERR%20错误/002-ERROR%201290.md)
 
 #### 99-file
 
@@ -211,109 +211,109 @@
 
 #### 003-ERR 错误
 
-- [001-ORA-12162终端无法直连](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/003-ERR%20%E9%94%99%E8%AF%AF/001-ORA-12162%E7%BB%88%E7%AB%AF%E6%97%A0%E6%B3%95%E7%9B%B4%E8%BF%9E.md)
-- [002-ORA-12514监听无法识别](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/003-ERR%20%E9%94%99%E8%AF%AF/002-ORA-12514%E7%9B%91%E5%90%AC%E6%97%A0%E6%B3%95%E8%AF%86%E5%88%AB.md)
-- [003-ORA-28002密码过期](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/003-ERR%20%E9%94%99%E8%AF%AF/003-ORA-28002%E5%AF%86%E7%A0%81%E8%BF%87%E6%9C%9F.md)
+- [001-ORA-12162终端无法直连](04-数据库/02-Oracle/003-ERR%20错误/001-ORA-12162终端无法直连.md)
+- [002-ORA-12514监听无法识别](04-数据库/02-Oracle/003-ERR%20错误/002-ORA-12514监听无法识别.md)
+- [003-ORA-28002密码过期](04-数据库/02-Oracle/003-ERR%20错误/003-ORA-28002密码过期.md)
 
 #### 01-搭建Oracle
 
-- [001-SQLPlus连接数据库](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/01-%E6%90%AD%E5%BB%BAOracle/001-SQLPlus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.md)
+- [001-SQLPlus连接数据库](04-数据库/02-Oracle/01-搭建Oracle/001-SQLPlus连接数据库.md)
 
 #### 02-Oracle查询场景
 
-- [001-数据泵导入导出数据](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/001-%E6%95%B0%E6%8D%AE%E6%B3%B5%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA%E6%95%B0%E6%8D%AE.md)
-- [002-自增触发器](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/002-%E8%87%AA%E5%A2%9E%E8%A7%A6%E5%8F%91%E5%99%A8.md)
-- [003-Oracle11g创建用户](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/003-Oracle11g%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7.md)
-- [004-循环、游标、批量查询](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/004-%E5%BE%AA%E7%8E%AF%E3%80%81%E6%B8%B8%E6%A0%87%E3%80%81%E6%89%B9%E9%87%8F%E6%9F%A5%E8%AF%A2.md)
-- [005-查询表空间](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/005-%E6%9F%A5%E8%AF%A2%E8%A1%A8%E7%A9%BA%E9%97%B4.md)
-- [006-锁表与解锁](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/006-%E9%94%81%E8%A1%A8%E4%B8%8E%E8%A7%A3%E9%94%81.md)
-- [007-存储过程](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/007-%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B.md)
-- [008-行转列](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/008-%E8%A1%8C%E8%BD%AC%E5%88%97.md)
-- [009-分页](04-%E6%95%B0%E6%8D%AE%E5%BA%93/02-Oracle/02-Oracle%E6%9F%A5%E8%AF%A2%E5%9C%BA%E6%99%AF/009-%E5%88%86%E9%A1%B5.md)
+- [001-数据泵导入导出数据](04-数据库/02-Oracle/02-Oracle查询场景/001-数据泵导入导出数据.md)
+- [002-自增触发器](04-数据库/02-Oracle/02-Oracle查询场景/002-自增触发器.md)
+- [003-Oracle11g创建用户](04-数据库/02-Oracle/02-Oracle查询场景/003-Oracle11g创建用户.md)
+- [004-循环、游标、批量查询](04-数据库/02-Oracle/02-Oracle查询场景/004-循环、游标、批量查询.md)
+- [005-查询表空间](04-数据库/02-Oracle/02-Oracle查询场景/005-查询表空间.md)
+- [006-锁表与解锁](04-数据库/02-Oracle/02-Oracle查询场景/006-锁表与解锁.md)
+- [007-存储过程](04-数据库/02-Oracle/02-Oracle查询场景/007-存储过程.md)
+- [008-行转列](04-数据库/02-Oracle/02-Oracle查询场景/008-行转列.md)
+- [009-分页](04-数据库/02-Oracle/02-Oracle查询场景/009-分页.md)
 
 ### 03-Redis
 
 #### 01-搭建及运维
 
-- [001-启动方式及排错](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/01-%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%90%E7%BB%B4/001-%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F%E5%8F%8A%E6%8E%92%E9%94%99.md)
+- [001-启动方式及排错](04-数据库/03-Redis/01-搭建及运维/001-启动方式及排错.md)
 
 #### 02-Redis搭建及SpringBoot整合-2021
 
 ##### doc
 
-- [1Redis](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/02-Redis%E6%90%AD%E5%BB%BA%E5%8F%8ASpringBoot%E6%95%B4%E5%90%88-2021/1Redis.md)
-- [2Redis](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/02-Redis%E6%90%AD%E5%BB%BA%E5%8F%8ASpringBoot%E6%95%B4%E5%90%88-2021/2Redis.md)
-- [3Redis](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/02-Redis%E6%90%AD%E5%BB%BA%E5%8F%8ASpringBoot%E6%95%B4%E5%90%88-2021/3Redis.md)
-- [4-RedisCli-API](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/02-Redis%E6%90%AD%E5%BB%BA%E5%8F%8ASpringBoot%E6%95%B4%E5%90%88-2021/4-RedisCli-API.md)
+- [1Redis](04-数据库/03-Redis/02-Redis搭建及SpringBoot整合-2021/1Redis.md)
+- [2Redis](04-数据库/03-Redis/02-Redis搭建及SpringBoot整合-2021/2Redis.md)
+- [3Redis](04-数据库/03-Redis/02-Redis搭建及SpringBoot整合-2021/3Redis.md)
+- [4-RedisCli-API](04-数据库/03-Redis/02-Redis搭建及SpringBoot整合-2021/4-RedisCli-API.md)
 
 #### 03-Redis超卖问题-2022
 
-- [SpringBoot 整合 Redis cache缓存](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/03-Redis%E8%B6%85%E5%8D%96%E9%97%AE%E9%A2%98-2022/SpringBoot%20%E6%95%B4%E5%90%88%20Redis%20cache%E7%BC%93%E5%AD%98.md)
-- [SpringBoot 整合 Redis 卖超问题](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/03-Redis%E8%B6%85%E5%8D%96%E9%97%AE%E9%A2%98-2022/SpringBoot%20%E6%95%B4%E5%90%88%20Redis%20%E5%8D%96%E8%B6%85%E9%97%AE%E9%A2%98.md)
-- [SpringBoot 整合 Redis 实现发布订阅](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/03-Redis%E8%B6%85%E5%8D%96%E9%97%AE%E9%A2%98-2022/SpringBoot%20%E6%95%B4%E5%90%88%20Redis%20%E5%AE%9E%E7%8E%B0%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.md)
-- [SpringBoot 整合 Redis](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/03-Redis%E8%B6%85%E5%8D%96%E9%97%AE%E9%A2%98-2022/SpringBoot%20%E6%95%B4%E5%90%88%20Redis.md)
+- [SpringBoot 整合 Redis cache缓存](04-数据库/03-Redis/03-Redis超卖问题-2022/SpringBoot%20整合%20Redis%20cache缓存.md)
+- [SpringBoot 整合 Redis 卖超问题](04-数据库/03-Redis/03-Redis超卖问题-2022/SpringBoot%20整合%20Redis%20卖超问题.md)
+- [SpringBoot 整合 Redis 实现发布订阅](04-数据库/03-Redis/03-Redis超卖问题-2022/SpringBoot%20整合%20Redis%20实现发布订阅.md)
+- [SpringBoot 整合 Redis](04-数据库/03-Redis/03-Redis超卖问题-2022/SpringBoot%20整合%20Redis.md)
 
 #### 04-Redis系统学习-2024
 
-- [1.1、Redis简介](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.1%E3%80%81Redis%E7%AE%80%E4%BB%8B.md)
-- [1.2、Redis安装](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.2%E3%80%81Redis%E5%AE%89%E8%A3%85.md)
-- [1.3、10大数据类型](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.3%E3%80%8110%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
-- [1.4、CLI基础操作](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.4%E3%80%81CLI%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C.md)
-- [1.5、数据持久化](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.5%E3%80%81%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96.md)
-- [1.6、事务](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.6%E3%80%81%E4%BA%8B%E5%8A%A1.md)
-- [1.7、管道](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.7%E3%80%81%E7%AE%A1%E9%81%93.md)
-- [1.8、发布订阅](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.8%E3%80%81%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.md)
-- [1.9、Redis复制【配置】](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/1.9%E3%80%81Redis%E5%A4%8D%E5%88%B6%E3%80%90%E9%85%8D%E7%BD%AE%E3%80%91.md)
-- [2.1、Redis哨兵](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.1%E3%80%81Redis%E5%93%A8%E5%85%B5.md)
-- [2.2、Redis集群](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.2%E3%80%81Redis%E9%9B%86%E7%BE%A4.md)
-- [2.3、Redis集成SpringBoot项目](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.3%E3%80%81Redis%E9%9B%86%E6%88%90SpringBoot%E9%A1%B9%E7%9B%AE.md)
-- [2.4、Redis高阶面试题](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.4%E3%80%81Redis%E9%AB%98%E9%98%B6%E9%9D%A2%E8%AF%95%E9%A2%98.md)
-- [2.5、Redis分布式锁](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.5%E3%80%81Redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.md)
-- [2.6、Redis官方分布式锁](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.6%E3%80%81Redis%E5%AE%98%E6%96%B9%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.md)
-- [2.7、大厂面试题](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.7%E3%80%81%E5%A4%A7%E5%8E%82%E9%9D%A2%E8%AF%95%E9%A2%98.md)
-- [2.8、源码解析Redis](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.8%E3%80%81%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90Redis.md)
-- [2.9、高性能epoll和IO多路复用](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/2.9%E3%80%81%E9%AB%98%E6%80%A7%E8%83%BDepoll%E5%92%8CIO%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8.md)
-- [3.0、Unix五种IO模型](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/3.0%E3%80%81Unix%E4%BA%94%E7%A7%8DIO%E6%A8%A1%E5%9E%8B.md)
-- [README](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/04-Redis%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0-2024/README.md)
+- [1.1、Redis简介](04-数据库/03-Redis/04-Redis系统学习-2024/1.1、Redis简介.md)
+- [1.2、Redis安装](04-数据库/03-Redis/04-Redis系统学习-2024/1.2、Redis安装.md)
+- [1.3、10大数据类型](04-数据库/03-Redis/04-Redis系统学习-2024/1.3、10大数据类型.md)
+- [1.4、CLI基础操作](04-数据库/03-Redis/04-Redis系统学习-2024/1.4、CLI基础操作.md)
+- [1.5、数据持久化](04-数据库/03-Redis/04-Redis系统学习-2024/1.5、数据持久化.md)
+- [1.6、事务](04-数据库/03-Redis/04-Redis系统学习-2024/1.6、事务.md)
+- [1.7、管道](04-数据库/03-Redis/04-Redis系统学习-2024/1.7、管道.md)
+- [1.8、发布订阅](04-数据库/03-Redis/04-Redis系统学习-2024/1.8、发布订阅.md)
+- [1.9、Redis复制【配置】](04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md)
+- [2.1、Redis哨兵](04-数据库/03-Redis/04-Redis系统学习-2024/2.1、Redis哨兵.md)
+- [2.2、Redis集群](04-数据库/03-Redis/04-Redis系统学习-2024/2.2、Redis集群.md)
+- [2.3、Redis集成SpringBoot项目](04-数据库/03-Redis/04-Redis系统学习-2024/2.3、Redis集成SpringBoot项目.md)
+- [2.4、Redis高阶面试题](04-数据库/03-Redis/04-Redis系统学习-2024/2.4、Redis高阶面试题.md)
+- [2.5、Redis分布式锁](04-数据库/03-Redis/04-Redis系统学习-2024/2.5、Redis分布式锁.md)
+- [2.6、Redis官方分布式锁](04-数据库/03-Redis/04-Redis系统学习-2024/2.6、Redis官方分布式锁.md)
+- [2.7、大厂面试题](04-数据库/03-Redis/04-Redis系统学习-2024/2.7、大厂面试题.md)
+- [2.8、源码解析Redis](04-数据库/03-Redis/04-Redis系统学习-2024/2.8、源码解析Redis.md)
+- [2.9、高性能epoll和IO多路复用](04-数据库/03-Redis/04-Redis系统学习-2024/2.9、高性能epoll和IO多路复用.md)
+- [3.0、Unix五种IO模型](04-数据库/03-Redis/04-Redis系统学习-2024/3.0、Unix五种IO模型.md)
+- [README](04-数据库/03-Redis/04-Redis系统学习-2024/README.md)
 
-- [README](04-%E6%95%B0%E6%8D%AE%E5%BA%93/03-Redis/README.md)
+- [README](04-数据库/03-Redis/README.md)
 
 ### 04-MongoDB
 
 #### 01-搭建
 
-- [001-Docker搭建MongoDB](04-%E6%95%B0%E6%8D%AE%E5%BA%93/04-MongoDB/01-%E6%90%AD%E5%BB%BA/001-Docker%E6%90%AD%E5%BB%BAMongoDB.md)
+- [001-Docker搭建MongoDB](04-数据库/04-MongoDB/01-搭建/001-Docker搭建MongoDB.md)
 
 ### 05-GBase
 
 #### 01-搭建
 
-- [001-GBase8A](04-%E6%95%B0%E6%8D%AE%E5%BA%93/05-GBase/01-%E6%90%AD%E5%BB%BA/001-GBase8A.md)
-- [002-GBase8S](04-%E6%95%B0%E6%8D%AE%E5%BA%93/05-GBase/01-%E6%90%AD%E5%BB%BA/002-GBase8S.md)
+- [001-GBase8A](04-数据库/05-GBase/01-搭建/001-GBase8A.md)
+- [002-GBase8S](04-数据库/05-GBase/01-搭建/002-GBase8S.md)
 
 ### 06-Gauss
 
 #### 01-搭建
 
-- [001-搭建到连接](04-%E6%95%B0%E6%8D%AE%E5%BA%93/06-Gauss/01-%E6%90%AD%E5%BB%BA/001-%E6%90%AD%E5%BB%BA%E5%88%B0%E8%BF%9E%E6%8E%A5.md)
+- [001-搭建到连接](04-数据库/06-Gauss/01-搭建/001-搭建到连接.md)
 
 #### 02-基础操作
 
-- [001-Gauss一些操作](04-%E6%95%B0%E6%8D%AE%E5%BA%93/06-Gauss/02-%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/001-Gauss%E4%B8%80%E4%BA%9B%E6%93%8D%E4%BD%9C.md)
+- [001-Gauss一些操作](04-数据库/06-Gauss/02-基础操作/001-Gauss一些操作.md)
 
 ### 07-Neo4j
 
-- [001-Neo4j搭建及基本SQL](04-%E6%95%B0%E6%8D%AE%E5%BA%93/07-Neo4j/001-Neo4j%E6%90%AD%E5%BB%BA%E5%8F%8A%E5%9F%BA%E6%9C%ACSQL.md)
-- [002-Neo4j SpringBoot整合](04-%E6%95%B0%E6%8D%AE%E5%BA%93/07-Neo4j/002-Neo4j%20SpringBoot%E6%95%B4%E5%90%88.md)
+- [001-Neo4j搭建及基本SQL](04-数据库/07-Neo4j/001-Neo4j搭建及基本SQL.md)
+- [002-Neo4j SpringBoot整合](04-数据库/07-Neo4j/002-Neo4j%20SpringBoot整合.md)
 
 ### 08-ClickHouse
 
 #### 01-搭建及连接
 
-- [001-服务器准备](04-%E6%95%B0%E6%8D%AE%E5%BA%93/08-ClickHouse/01-%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%9E%E6%8E%A5/001-%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%87%86%E5%A4%87.md)
-- [002-安装](04-%E6%95%B0%E6%8D%AE%E5%BA%93/08-ClickHouse/01-%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%9E%E6%8E%A5/002-%E5%AE%89%E8%A3%85.md)
-- [003-数据类型](04-%E6%95%B0%E6%8D%AE%E5%BA%93/08-ClickHouse/01-%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%9E%E6%8E%A5/003-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
-- [004-启动连接](04-%E6%95%B0%E6%8D%AE%E5%BA%93/08-ClickHouse/01-%E6%90%AD%E5%BB%BA%E5%8F%8A%E8%BF%9E%E6%8E%A5/004-%E5%90%AF%E5%8A%A8%E8%BF%9E%E6%8E%A5.md)
+- [001-服务器准备](04-数据库/08-ClickHouse/01-搭建及连接/001-服务器准备.md)
+- [002-安装](04-数据库/08-ClickHouse/01-搭建及连接/002-安装.md)
+- [003-数据类型](04-数据库/08-ClickHouse/01-搭建及连接/003-数据类型.md)
+- [004-启动连接](04-数据库/08-ClickHouse/01-搭建及连接/004-启动连接.md)
 
 ## 05-前端
 
