@@ -147,6 +147,13 @@ docker run \
 
 ## mc 客户端使用
 
+启动 Minio
+
+```sh
+minio server /Users/xiang/xiang/compile/minio/data --address :9000 --console-address :9001 &
+```
+
+
 Mac 端下载
 ```sh
 https://dl.minio.org.cn/client/mc/release/darwin-amd64/mc
@@ -157,6 +164,9 @@ Mac 环境使用
 注册一个可用的 Minio
 ```sh
 ./mc alias set dapi_uat http://cloud-minio-data-10-5-3-176:8082  xQfGhPRPG0bJ9YW4HiB6 22BzgLhqfGjWAxIZfsOOfCmexNRVGRn8JiYXRhVR
+
+
+mc alias set dapi_uat http://10.5.3.178:9000 minioadmin minioadmin
 ```
 
 
@@ -180,6 +190,8 @@ Mac 环境使用
 下载 mc get minio对象 本地对象
 ```sh
 ./mc ls dapi_uat/exchange-module/upload/20250403/2387235f59c377e75f936262363f3440.zip /Users/xiang/Downloads/
+
+mc get dapi_uat/exchange-module/upload/20250527/每月月初再保数据-143656.zip ./
 ```
 
 

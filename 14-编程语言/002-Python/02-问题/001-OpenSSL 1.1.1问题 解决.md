@@ -1,6 +1,15 @@
+---
+createTime: 2025-05-27
+---
+
+
 > 抄自：
 > 1. https://blog.csdn.net/2401_83739472/article/details/138969764
 > 2. https://blog.csdn.net/2401_84009065/article/details/137691108
+
+问题：
+
+ImportError: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'OpenSSL 1.0.2k-fips 26 Jan 2017'. See: https://github.com/urllib3/urllib3/issues/2168
 
 首先需要解决 `perl`，这是一种高级语言，`make test` 的执行时间会很长
 
@@ -37,7 +46,7 @@ make install
 openssl version
 
 # 备份
-mv /usr/bin/openssl /usr/bin/oldopenssl
+mv /usr/bin/openssl /usr/bin/old_openssl
 ln -s /usr/local/openssl-1.1.1/bin/openssl /usr/bin/openssl
 ln -s /usr/local/openssl-1.1.1/lib/libssl.so.1.1 /usr/lib64/
 ln -s /usr/local/openssl-1.1.1/lib/libcrypto.so.1.1  /usr/lib64/
