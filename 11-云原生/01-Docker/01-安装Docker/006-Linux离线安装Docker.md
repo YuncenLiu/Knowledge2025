@@ -50,3 +50,44 @@ StartLimitInterval=60s
 [Install]
 WantedBy=multi-user.target
 ```
+
+刷新服务：systemctl daemon-reload
+
+
+启动 / 停止 docker 服务
+systemctl start docker
+systemctl stop docker
+
+开机自启/取消开机自启 docker 服务
+systemctl enable docker
+systemctl disable docker
+
+## 修改 Docker 工作目录
+
+修改配置文件 `vim /etc/docker/daemon.json`
+
+```sh
+mkdir -p /etc/docker/
+vim /etc/docker/daemon.json
+```
+
+```
+{
+  "data-root": "/data/docker/data"
+}
+```
+
+将原本的内容复制到新位置
+这一步如果不执行无法启动 
+```sh
+cp -r /var/lib/docker/* /data/docker/data/
+```
+
+重启
+
+
+```sh
+systemctl daemon-reload
+systemctl restart docker
+```
+
