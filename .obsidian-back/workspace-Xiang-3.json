@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "beaf0132f7c7c54d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b1675bcfac806f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12-应用及构建/01-Git/001-Git常用操作.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b2d7422b698b38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/001-Linux安装Oracle11g.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "修改hostname",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "12-应用及构建/01-Git/001-Git常用操作.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "12-应用及构建/01-Git/001-Git常用操作.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "12-应用及构建/01-Git/001-Git常用操作.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 211.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9b1675bcfac806f5",
+  "lastOpenFiles": [
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/001-Linux安装Oracle11g.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/002-Oracle安装资源.md",
+    "01-个人/03-日常记录/2025年/2025年04月14日.md",
+    "01-个人/04-工作/01-昆仑健康/02-能力与沉淀/001-TODO Anything.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/010-创建用户.md",
+    "01-个人/04-工作/01-昆仑健康/02-能力与沉淀",
+    "04-数据库/02-Oracle/02-Oracle查询场景/images/Pasted image 20250415222517.png",
+    "10-大数据/01-Hadoop/01-搭建/004-伪分布式搭建Hadoop.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+    "04-数据库/02-Oracle/01-搭建Oracle/001-SQLPlus连接数据库.md",
+    "04-数据库/02-Oracle/01-搭建Oracle/002-SQLPlus 运维.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/004-循环、游标、批量查询.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/002-自增触发器.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/001-数据泵导入导出数据.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/009-分页.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/008-行转列.md",
+    "04-数据库/02-Oracle/02-Oracle查询场景/007-存储过程.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221922.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221803.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221632.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415220617.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415220555.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415213355.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415213221.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415212841.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/002-VMware扩容.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/004-设置SWAP分区.md",
+    "01-个人/03-日常记录/2025年/images/Pasted image 20250414145024.png",
+    "01-个人/03-日常记录/2025年/images",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/001-搭建可用虚拟机.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/009-Nginx服务器证书安装.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/003-Nginx.md",
+    "01-个人/01-学习记录/2025年04月.md",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/002-Minio 分布式对象存储.md",
+    "02-计算机基础原理/06-Mac/01-Homebrew工具/001-Homebrew工具.md",
+    "01-个人/02-成就记录/2025年.md",
+    "01-个人/02-成就记录/2024年.md",
+    "01-个人/01-学习记录/2025年03月.md",
+    "02-计算机基础原理/05-网络通信介绍/images",
+    "05-前端/01-静态Web基础/07-nvm",
+    "01-个人/05-管理/02-资产管理/99-file/02-Mac统计Git项目-20250408.xlsx",
+    "02-计算机基础原理/06-Mac/01-Homebrew工具",
+    "02-计算机基础原理/06-Mac",
+    "11-云原生/02-Kubernetes/01-入门/images/1、快速搭建 K8s 集群"
+  ]
+}

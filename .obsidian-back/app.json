@@ -1,0 +1,17 @@
+{
+  "attachmentFolderPath": "./images/",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "vimMode": false,
+  "useMarkdownLinks": true,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea762e5f57c871dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b65b5bdb72df9efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14-编程语言/003-Android/01-AutoJs/001-安装环境.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:\"anaconda \"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "14-编程语言/003-Android/01-AutoJs/001-安装环境.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "14-编程语言/003-Android/01-AutoJs/001-安装环境.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "14-编程语言/003-Android/01-AutoJs/001-安装环境.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "13d25388f4529b1e",
+  "lastOpenFiles": [
+    "16-人工智能/02-集成Office办公/001-DeepSeek+Word配置.md",
+    "14-编程语言/003-Android/01-AutoJs/001-安装环境.md",
+    "14-编程语言/003-Android/01-AutoJs",
+    "14-编程语言/003-Android",
+    "16-人工智能/02-集成Office办公/003-DeepSeek+Excel配置.md",
+    "16-人工智能/02-集成Office办公/002-DeepSeek+WPS配置.md",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522232017.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231823.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231740.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231051.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522230318.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522230317.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522225549.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522224141.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522223909.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522223753.png",
+    "16-人工智能/01-MCP/004-开发MCP服务端与客户端.md",
+    "16-人工智能/01-MCP/003-MCP理论.md",
+    "15-工具/03-办公软件/001-Win安装Office.md",
+    "15-工具/03-办公软件/images",
+    "01-个人/01-学习记录/2025年05月.md",
+    "15-工具/03-办公软件",
+    "01-个人/03-日常记录/2025年/2025年05月20日.md",
+    "01-个人/02-成就记录/2024年.md",
+    "01-个人/02-成就记录/2025年.md",
+    "01-个人/06-AI规划/01-DeepSeek/001-自我介绍.md",
+    "10-大数据/04-Spark/01-基础入门/004-Standalone环境搭建.md",
+    "01-个人/06-AI规划/01-DeepSeek",
+    "01-个人/06-AI规划",
+    "10-大数据/04-Spark/01-基础入门/006-Conda 常用命令.md",
+    "10-大数据/04-Spark/04-PySpark运行/001-构建PyCharm环境.md",
+    "10-大数据/04-Spark/05-SparkCore/1_RDD/002-编程入门.md",
+    "10-大数据/04-Spark/05-SparkCore/1_RDD/001-RDD五大特性.md",
+    "10-大数据/04-Spark/01-基础入门/005-连接StandAlone集群.md",
+    "10-大数据/04-Spark/01-基础入门/003-Spark本地搭建测试.md",
+    "13-解决方案/03-dataHub血缘关系分析/dataHub.md",
+    "14-编程语言/002-Python/dataHub.md",
+    "14-编程语言/002-Python/未命名",
+    "14-编程语言/002-Python/01-入门/001-Linux环境安装Python3.7.md",
+    "14-编程语言/002-Python/01-入门/005-Mac环境安装Python.md",
+    "16-人工智能/02-集成Office办公/images",
+    "16-人工智能/02-集成Office办公",
+    "14-编程语言/002-Python/05-Selenium爬虫/002-基本语法.md",
+    "14-编程语言/002-Python/01-入门/002-Python基本知识.md",
+    "14-编程语言/002-Python/01-入门/004-pycharm工具的venv环境.md",
+    "99_MarkDown"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdbd108eb9200038",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0425fac7f734890f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line: \"clickhouse\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 491.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11-云原生/01-Docker/01-安装Docker/006-Linux离线安装Docker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "006-Linux离线安装Docker 的反向链接列表"
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11-云原生/01-Docker/01-安装Docker/006-Linux离线安装Docker.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "006-Linux离线安装Docker 的出链列表"
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "0425fac7f734890f",
+  "lastOpenFiles": [
+    "images/GIt分析.excalidraw",
+    "images",
+    "02-计算机基础原理/05-网络通信介绍/002、Wireguard.md",
+    "04-数据库/08-ClickHouse/01-搭建及连接/004-启动连接.md",
+    "04-数据库/08-ClickHouse/01-搭建及连接/003-数据类型.md",
+    "04-数据库/08-ClickHouse/01-搭建及连接/002-安装.md",
+    "04-数据库/08-ClickHouse/01-搭建及连接/001-服务器准备.md",
+    "07-分布式/03-Kafka/005-优化消费.md",
+    "14-编程语言/002-Python/04-opencv/001-安装opencv环境.md",
+    "14-编程语言/002-Python/01-入门/001-Linux环境安装Python3.7.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/02-ollama/001-离线部署.md",
+    "12-应用及构建/01-Git/003-Git设置用户名密码.md",
+    "12-应用及构建/01-Git/001-Git常用操作.md",
+    "12-应用及构建/01-Git/002-Git免密操作.md",
+    "12-应用及构建/01-Git/005-GitTag.md",
+    "12-应用及构建/01-Git/004-Git回撤远程.md",
+    "01-个人/01-学习记录/2025年04月.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/001-用户添加sudu权限.md",
+    "15-工具/02-网络工具/002-Clash-Linux.md",
+    "15-工具/02-网络工具/images/Pasted image 20250427155037.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154931.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154901.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154806.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154720.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154554.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154514.png",
+    "15-工具/02-网络工具/images/Pasted image 20250427154333.png",
+    "15-工具/02-网络工具/images",
+    "15-工具/02-网络工具/001-nmap.md",
+    "02-计算机基础原理/05-网络通信介绍/001、计算机网络.md",
+    "11-云原生/01-Docker/02-系统学习/013-docker私服.md",
+    "11-云原生/02-Kubernetes/03-整理一些问题/002-创建认证用于下拉私有镜像.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/013-修改服务器22端口.md",
+    "INDEX_README.md",
+    "README.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/002-VMware扩容.md",
+    "01-个人/03-日常记录/2025年/images/Pasted image 20250422231132.png",
+    "11-云原生/01-Docker/01-安装Docker/006-Linux离线安装Docker.md~RFf2e64f.TMP",
+    "01-个人/04-工作/01-昆仑健康/03-替换证书文件",
+    "15-工具/02-网络工具",
+    "01-个人/04-工作/01-昆仑健康/02-能力与沉淀",
+    "04-数据库/02-Oracle/02-Oracle查询场景/images/Pasted image 20250415222517.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images",
+    "01-个人/03-日常记录/2025年/images",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g",
+    "02-计算机基础原理/05-网络通信介绍/images"
+  ]
+}

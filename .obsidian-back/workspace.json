@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea762e5f57c871dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b65b5bdb72df9efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-数据库/01-MySQL/04-相关应用/002-ODBC连接MySQL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:\"minio server\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-数据库/01-MySQL/04-相关应用/002-ODBC连接MySQL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-数据库/01-MySQL/04-相关应用/002-ODBC连接MySQL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-数据库/01-MySQL/04-相关应用/002-ODBC连接MySQL.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 350.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b65b5bdb72df9efc",
+  "lastOpenFiles": [
+    "04-数据库/01-MySQL/04-相关应用/images/Pasted image 20250529232653.png",
+    "04-数据库/01-MySQL/04-相关应用/images/Pasted image 20250529232640.png",
+    "04-数据库/01-MySQL/04-相关应用/images",
+    "04-数据库/01-MySQL/04-相关应用/001-mycat.md",
+    "04-数据库/01-MySQL/04-相关应用/002-ODBC连接MySQL.md",
+    "04-数据库/01-MySQL/02-MySQL查询场景/001-删除重复数据.md",
+    "07-分布式/04-ElasticSearch/04-常用ES操作/003-开启登录模式.md",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/002-Minio 分布式对象存储.md",
+    "INDEX_README.md",
+    "02-计算机基础原理/06-Mac/01-Homebrew工具/001-Homebrew工具.md",
+    "14-编程语言/002-Python/01-入门/001-Linux环境安装Python3.7.md",
+    "14-编程语言/002-Python/01-入门/003-处理pip镜像问题.md",
+    "14-编程语言/002-Python/02-问题/001-OpenSSL 1.1.1问题 解决.md",
+    "14-编程语言/002-Python/01-入门/images/Pasted image 20250527141412.png",
+    "14-编程语言/002-Python/02-问题/002-OpenSSL 1.1.1问题 无法解决.md",
+    "14-编程语言/002-Python/01-入门/005-Mac环境安装Python.md",
+    "14-编程语言/002-Python/01-入门/004-pycharm工具的venv环境.md",
+    "14-编程语言/002-Python/01-入门/002-Python基本知识.md",
+    "14-编程语言/003-Android/01-AutoJs/001-安装环境.md",
+    "02-计算机基础原理/05-网络通信介绍/002、Wireguard.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/004-常用运维操作.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/003-升级CentOS内核.md",
+    "07-分布式/04-ElasticSearch/02-高级/003-零停机索引重建.md",
+    "07-分布式/04-ElasticSearch/02-高级/004-智能搜索建议.md",
+    "07-分布式/04-ElasticSearch/02-高级/002-Query DSL.md",
+    "07-分布式/04-ElasticSearch/02-高级/images/2、Query DSL/image-20230420112732881.png",
+    "16-人工智能/03-SpringAI/001-构建SpringAI项目.md",
+    "13-解决方案/03-dataHub血缘关系分析/dataHub.md",
+    "16-人工智能/02-集成Office办公/001-DeepSeek+Word配置.md",
+    "16-人工智能/03-SpringAI",
+    "16-人工智能/未命名",
+    "16-人工智能/02-集成Office办公/003-DeepSeek+Excel配置.md",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522232017.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231823.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231740.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522231051.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522230318.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522230317.png",
+    "16-人工智能/02-集成Office办公/images/Pasted image 20250522225549.png",
+    "15-工具/03-办公软件/images",
+    "15-工具/03-办公软件",
+    "01-个人/06-AI规划/01-DeepSeek",
+    "01-个人/06-AI规划",
+    "14-编程语言/002-Python/未命名",
+    "16-人工智能/02-集成Office办公/images",
+    "16-人工智能/02-集成Office办公"
+  ]
+}

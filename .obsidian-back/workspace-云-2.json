@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ada8b9ec826434f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17843b14fc1a6d46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-个人/03-日常记录/2025年/2025年05月20日.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025年05月20日"
+            }
+          },
+          {
+            "id": "52fd0a4996eddd8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11-云原生/01-Docker/02-系统学习/013-docker私服.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "013-docker私服"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "jenkins",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 342.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11-云原生/01-Docker/04-操作运维/003-自定义构建镜像.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "003-自定义构建镜像 的反向链接列表"
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11-云原生/01-Docker/04-操作运维/003-自定义构建镜像.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "003-自定义构建镜像 的出链列表"
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "11-云原生/01-Docker/04-操作运维/003-自定义构建镜像.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "003-自定义构建镜像 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "17843b14fc1a6d46",
+  "lastOpenFiles": [
+    "11-云原生/03-CICD/01-Jekins/003-Jenkins 运行SpringBoot.md",
+    "INDEX_README.md",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/001-jenkins.md",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/002-Minio 分布式对象存储.md",
+    "11-云原生/03-CICD/01-Jekins/001-安装 Jekins.md",
+    "01-个人/01-学习记录/2025年05月.md",
+    "11-云原生/01-Docker/04-操作运维/004-解决中文乱码问题.md",
+    "11-云原生/01-Docker/02-系统学习/013-docker私服.md",
+    "11-云原生/01-Docker/04-操作运维/001-基础命令.md",
+    "11-云原生/01-Docker/02-系统学习/012-IDEA集成Docker.md",
+    "11-云原生/01-Docker/02-系统学习/010-运维-MySQL主从复制.md",
+    "11-云原生/01-Docker/02-系统学习/016-运维-搭建企业Harbor.md",
+    "11-云原生/01-Docker/02-系统学习/017-Dockerfile.md",
+    "14-编程语言/002-Python/03-DrissionPage爬虫/003-滚动翻页.md",
+    "11-云原生/01-Docker/04-操作运维/images/Pasted image 20250519114650.png",
+    "11-云原生/01-Docker/04-操作运维/images/Pasted image 20250519114622.png",
+    "11-云原生/01-Docker/04-操作运维/images/Pasted image 20250519114511.png",
+    "11-云原生/01-Docker/04-操作运维/images/Pasted image 20250519114348.png",
+    "11-云原生/01-Docker/04-操作运维/002-普通用户使用docker赋权.md",
+    "14-编程语言/002-Python/01-入门/004-pycharm工具的venv环境.md",
+    "11-云原生/01-Docker/04-操作运维/003-自定义构建镜像.md",
+    "11-云原生/01-Docker/04-操作运维/images/requirements 1.txt",
+    "11-云原生/01-Docker/04-操作运维/images/requirements.txt",
+    "11-云原生/01-Docker/04-操作运维/images/img.png",
+    "11-云原生/01-Docker/04-操作运维/images",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/15-Linux使用梯子.md",
+    "02-计算机基础原理/05-网络通信介绍/002、Wireguard.md",
+    "02-计算机基础原理/05-网络通信介绍/001、计算机网络.md",
+    "01-个人/01-学习记录/2025年04月.md",
+    "01-个人/02-成就记录/2025年.md",
+    "14-编程语言/002-Python/01-入门/001-Linux环境安装Python3.7.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/002-VMware扩容.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/001-搭建可用虚拟机.md",
+    "01-个人/03-日常记录/2025年/images/Pasted image 20250514161108.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415212841.png",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/images/Pasted image 20250407093047.png",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/images/Pasted image 20250407093223.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415213221.png",
+    "images/GIt分析.excalidraw",
+    "15-工具/02-网络工具/images",
+    "15-工具/02-网络工具",
+    "13-解决方案/04-网络流量分析/images",
+    "13-解决方案/04-网络流量分析",
+    "07-分布式/04-ElasticSearch/04-常用ES操作/images",
+    "05-前端/01-静态Web基础/07-nvm"
+  ]
+}

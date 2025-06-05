@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "beaf0132f7c7c54d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07969a7099988266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b1675bcfac806f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/01-VMWare搭建/004-设置SWAP分区.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "nginx",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "07969a7099988266",
+  "lastOpenFiles": [
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/002-VMware扩容.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/001-搭建可用虚拟机.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/001-Linux安装Oracle11g.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/009-Nginx服务器证书安装.md",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/003-Nginx.md",
+    "01-个人/01-学习记录/2025年04月.md",
+    "11-云原生/01-Docker/03-启动服务/01-Mac启动/002-Minio 分布式对象存储.md",
+    "02-计算机基础原理/06-Mac/01-Homebrew工具/001-Homebrew工具.md",
+    "01-个人/02-成就记录/2025年.md",
+    "01-个人/02-成就记录/2024年.md",
+    "01-个人/01-学习记录/2025年03月.md",
+    "02-计算机基础原理/05-网络通信介绍/002、Wireguard.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/004-常用运维操作.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/004-设置SWAP分区.md",
+    "01-个人/03-日常记录/2025年/2025年04月01日.md",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250409011154.png",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/003-升级CentOS内核.md",
+    "04-数据库/01-MySQL/01-搭建MySQL/001-Linux安装MySQL8.0.md",
+    "02-计算机基础原理/04-Linux系统/01-VMWare搭建/003-搭建服务器-CentOS7.9.md",
+    "11-云原生/02-Kubernetes/01-入门/001-1-快速搭建 K8s 集群.md",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408164256.png",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408163700.png",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408163631.png",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408163454.png",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408150318.png",
+    "02-计算机基础原理/05-网络通信介绍/images/Pasted image 20250408142913.png",
+    "02-计算机基础原理/05-网络通信介绍/images",
+    "05-前端/01-静态Web基础/07-nvm/001-nvm.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/008-Linux命令详解.md",
+    "02-计算机基础原理/04-Linux系统/03-Linux相关操作/014-防火墙网络网络.md",
+    "05-前端/01-静态Web基础/05-Vite/001-构建vite工程.md",
+    "05-前端/01-静态Web基础/07-nvm",
+    "02-计算机基础原理/05-网络通信介绍/001、计算机网络.md",
+    "15-工具/01-开发工具/03-iTerm2/001-配置文件.md",
+    "01-个人/05-管理/02-资产管理/01-Github.md",
+    "01-个人/05-管理/02-资产管理/99-file/02-Mac统计Git项目-20250408.xlsx",
+    "02-计算机基础原理/06-Mac/01-Homebrew工具",
+    "02-计算机基础原理/06-Mac",
+    "11-云原生/02-Kubernetes/01-入门/images/1、快速搭建 K8s 集群/image-20241224235556738.png",
+    "11-云原生/02-Kubernetes/01-入门/images/1、快速搭建 K8s 集群/image-20241225001050964.png",
+    "11-云原生/02-Kubernetes/01-入门/images/1、快速搭建 K8s 集群/image-20241225000720377.png",
+    "11-云原生/02-Kubernetes/01-入门/images/1、快速搭建 K8s 集群",
+    "images",
+    "12-应用及构建/03-Minio",
+    "01-个人/04-工作/01-昆仑健康/01-构建AI-POC/99-file/004-AI重塑保险-3-27.pptx"
+  ]
+}

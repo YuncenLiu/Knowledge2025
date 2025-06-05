@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "bf72622ef96e29b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "beaf0132f7c7c54d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b1675bcfac806f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ae860dd69cebfaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-个人/03-日常记录/2025年/2025年04月22日，B站视频转文本，程序员折腾的11年.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b2d7422b698b38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/001-Linux安装Oracle11g.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3dc60e16ce3539a",
+    "type": "split",
+    "children": [
+      {
+        "id": "668c49113eacebfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8dc566dba7237e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fa5ed00cb0235ee4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(vm.max_map_count)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "617dde52400b6605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "e8ba9b3afda7ae12",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd23d114e23da24a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69b33af8da63a7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f5d30b433eb219d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31b5bfa3c4363a08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13d25388f4529b1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 210.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9b1675bcfac806f5",
+  "lastOpenFiles": [
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.1、Redis哨兵.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/1.7、管道.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/1.4、CLI基础操作.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/1.6、事务.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/1.5、数据持久化.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.5、Redis分布式锁.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.4、Redis高阶面试题.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.3、Redis集成SpringBoot项目.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.2、Redis集群.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/1.9、Redis复制【配置】.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/2.9、高性能epoll和IO多路复用.md",
+    "04-数据库/03-Redis/04-Redis系统学习-2024/3.0、Unix五种IO模型.md",
+    "04-数据库/01-MySQL/03-系统学习/005-三级封锁协议.md",
+    "04-数据库/01-MySQL/03-系统学习/006-MySQL JDBC对应支持版本.md",
+    "04-数据库/01-MySQL/03-系统学习/001-MySQL架构体系.md",
+    "04-数据库/01-MySQL/03-系统学习/002-MySQL事务隔离级别复现.md",
+    "04-数据库/01-MySQL/03-系统学习/003-MySQL索引篇.md",
+    "04-数据库/01-MySQL/03-系统学习/004-MySQL锁机制.md",
+    "03-Java核心/13-并发编程/008-Java对象内存布局和对象头.md",
+    "03-Java核心/13-并发编程/006-CAS与原子类.md",
+    "03-Java核心/13-并发编程/005-Java内存模型JMM.md",
+    "03-Java核心/13-并发编程/001-线程基础知识.md",
+    "03-Java核心/13-并发编程/010-AQS.md",
+    "03-Java核心/13-并发编程/009-Synchronized锁.md",
+    "03-Java核心/13-并发编程/007-ThreadLocal.md",
+    "03-Java核心/13-并发编程/004-LockSupport与线程中断.md",
+    "01-个人/03-日常记录/2025年/images/Pasted image 20250422231132.png",
+    "11-云原生/01-Docker/01-安装Docker/006-Linux离线安装Docker.md~RFf2e64f.TMP",
+    "01-个人/04-工作/01-昆仑健康/03-替换证书文件",
+    "15-工具/02-网络工具",
+    "01-个人/04-工作/01-昆仑健康/02-能力与沉淀",
+    "04-数据库/02-Oracle/02-Oracle查询场景/images/Pasted image 20250415222517.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221922.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221803.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415221632.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415220617.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415220555.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415213355.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415213221.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images/Pasted image 20250415212841.png",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g/images",
+    "01-个人/03-日常记录/2025年/images",
+    "02-计算机基础原理/04-Linux系统/04-Linux应用搭建/03-Oracle11g",
+    "02-计算机基础原理/05-网络通信介绍/images",
+    "05-前端/01-静态Web基础/07-nvm",
+    "01-个人/05-管理/02-资产管理/99-file/02-Mac统计Git项目-20250408.xlsx"
+  ]
+}
