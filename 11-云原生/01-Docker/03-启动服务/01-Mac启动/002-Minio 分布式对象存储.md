@@ -167,6 +167,9 @@ Mac 环境使用
 
 
 mc alias set dapi_uat http://10.5.3.178:9000 minioadmin minioadmin
+
+# 生产环境
+mc alias set dapi_uat http://10.5.1.31:9000 IjEA7mUWjM1wPbMk16Lz 8XE3KnLBfPFcIbrLnE06xZ6L3hEUIICrm51n2krk
 ```
 
 
@@ -198,4 +201,26 @@ mc get dapi_uat/exchange-module/upload/20250527/每月月初再保数据-143656.
 上传 mc cp -r 本地对象 minio对象 (-r 支持文件夹上传)
 ```sh
 ./mc cp /Users/xiang/Downloads/Flink-1.17/flink-1.17.0-bin-scala_2.12.tgz dapi_uat/exchange-module/upload/互联网高薪必读书单/
+```
+
+
+## mc 相关命令
+
+查看 mc 本地有多少个配置
+```sh
+mc alias list
+```
+
+新增 alias 配置
+```sh
+# 测试环境
+mc alias set dapi_uat http://cloud-minio-data-10-5-3-176:8082 xQfGhPRPG0bJ9YW4HiB6 22BzgLhqfGjWAxIZfsOOfCmexNRVGRn8JiYXRhVR
+
+# 生产环境
+mc alias set dapi_pro http://cloud-minio-data-10-5-1-236:8080 IjEA7mUWjM1wPbMk16Lz 8XE3KnLBfPFcIbrLnE06xZ6L3hEUIICrm51n2krk
+```
+
+上传文件到对象存储
+```sh
+mc cp /Users/xiang/Documents/work/project/KL/Xiang-Cloud/target.zip dapi_pro/exchange-module/system/
 ```
