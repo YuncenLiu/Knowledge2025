@@ -269,8 +269,146 @@ COMPILE_SCHEMA    0
 ```
 
 
-## 如何执行
+
+
+## 具体同步步骤
+
+### 1、生成DDL语句
+
+首先获取需要同步的表，table1、table2.... 等 这样的信息，然后创建 `mate_data.conf` 文件作为 ora2pg 配置文件
 
 ```sh
-ora2pg -c ora2pg.conf
+PG_VERSION         9.4
+ORACLE_HOME        /home/oracle/instantclient_11_2
+ORACLE_DSN         dbi:Oracle:host=dcpdb.prd.klhic.com;sid=BIDB;port=1522
+ORACLE_USER        DATAMART
+ORACLE_PWD         DMBIDB105254
+
+TYPE               TABLE
+SCHEMA             ODS
+
+OUTPUT_DIR         /data/apps/ora2pg/oracle_mate
+OUTPUT             ddl.sql
+
+ALLOW              table1,table2, # 这里用逗号隔开
 ```
+
+通过执行 
+
+```sh
+ora2pg -c mate_data.conf
+```
+
+即可生成 /data/apps/ora2pg/oracle_mate/ddl.sql 文件，这个文件前面十几行的 set 都是没用的，需要删除
+
+![](images/Pasted%20image%2020250611173926.png)
+
+我这里不仅删除了 set 配置，也删除了创建索引、创建主键等功能。
+这里使用了 Python 工具对其指定删除，生成新的 sql 文件。
+这样 DDL 语句就准备好了，使用
+
+### 2、创建表结构
+
+```sh
+PGPASSWORD="kingbase@kadb" psql -h 10.6.74.134 -p 55432 -U mppadmin -d ods -v ON_ERROR_STOP=0 -f ddl.sql
+```
+
+即可将所有表创建到 PG 数据库中
+
+
+### 3、生成数据
+
+为了方便控制，我为每一张表都生成了一个 conf 文件，这样，一张Oracle表，对应一个 conf 文件，对应一个 sql 文件。
+
+使用 Python 批量生成如下 conf 文件
+
+==OUTPUT_DIR 决定了 sql 文件存放位置==
+==ALLOW 决定读取Oracle哪一张表==
+
+```sh
+PG_VERSION         9.4
+ORACLE_HOME        /home/oracle/instantclient_11_2
+ORACLE_DSN         dbi:Oracle:host=dcpdb.prd.klhic.com;sid=BIDB;port=1522
+ORACLE_USER        DATAMART
+ORACLE_PWD         DMBIDB105254
+TYPE               COPY
+SCHEMA             ODS  
+PG_SCHEMA          dapi
+DEFAULT_SCHEMA     dapi
+EXPORT_SCHEMA      0    
+ALLOW              O_C_API_SL_INSSALESBEHAVIOR SL_INSSALESBEHAVIOR
+FORMAT             binary
+JOBS              32
+BUFFER_SIZE       256MB
+FETCH_SIZE        10000
+BLOB_LIMIT        10MB
+MEMORY_LIMIT      48GB
+PARALLEL_TABLES   8
+CHILD_PROCESSES   4
+ESCAPE_BACKSLASH  1
+STANDARD_CONFORMING_STRINGS 1
+NULL_STRING       'NULL'
+COPY_DELIMITER    'PG_EOF' 
+REPLACE_CRLF       1       
+TRIM_FIELDS       1        
+FORCE_TYPE        insuredsex:varchar(1)
+DATA_CHECK        insuredsex:~'^[A-Za-z0-9]$'
+INVALID_CHAR_REPLACE 1
+DISABLE_TRIGGERS 1
+SKIP             fkeys indexes checks
+OUTPUT_DIR        /data/apps/ora2pg/data_sync/DAPI/
+OUTPUT            SL_INSSALESBEHAVIOR.sql
+NO_HEADER         1
+COMPILE_SCHEMA    0
+```
+
+结构类似如下
+
+```
+ data_sync
+ ├── 00_conf.csv
+ ├── O_CLAIM_IBCLAIM.conf
+ ├── O_CLAIM_IBDUTY.conf
+ ├── O_CLAIM_IBDUTYPAY.conf
+ ├── O_CLAIM_IBMISHAPCAUSE.conf
+ ├── O_CLAIM_IBOPINION.conf
+ ├── O_CLAIM_IBREPORT.conf
+ ├── O_CLAIM_IBSTATUSDETAIL.conf
+ └── O_CLAIM_IBSURVEY.conf
+```
+
+
+此时就剩下执行这些配置文件了
+
+![](images/Pasted%20image%2020250611174507.png)
+
+通过一个 shell 脚本批量执行
+
+>[!Note]
+>2025年6月11日
+>同步 ODS 248张表，21亿条数据，占据 450G 磁盘空间，共花费 9个小时
+
+执行后，生成的 sql 结构如下（SQL存放位置，根据 conf 配置文件而定）
+
+```
+data_sync/
+├── CC
+├── CLAIM
+│   ├── IBDUTYPAY.sql
+│   └── O_CLAIM_IBDUTYPAY_IBDUTYPAY.sql
+├── DAPI
+```
+
+
+
+### 4、写入数据
+
+所有 sql 文件都生成好之后，使用 pg 工具写入数据
+
+![](images/Pasted%20image%2020250611175037.png)
+
+执行到这里的时候，发现一个问题，至今没有解决
+如果把这个sql放到一个 shell 里，再执行 shell ，写入的数据就会不可读，可能是我们的 pg 库是 gbk格式的原因吧
+
+所以我是一行一行执行的，开多个窗口，哪个执行完就贴下一个，也很快了（20分钟）
+最后数据成功进入数据库，再怎么处理就是后事了。
